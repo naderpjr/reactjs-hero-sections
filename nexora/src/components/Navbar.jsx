@@ -29,7 +29,7 @@ function Navbar() {
     return (
         <nav
             ref={navRef}
-            className="absolute top-[50px] left-[60px] right-[60px] z-20 flex items-center justify-between"
+            className="absolute top-[50px] left-[30px] right-[30px] z-20 flex items-center justify-between"
         >
             <a href="#" className="text-2xl font-bold tracking-tight text-gray-600">
                 NEXORA.
@@ -44,7 +44,7 @@ function Navbar() {
 
             <a
                 href="#"
-                className="rounded-full border border-gray-600 px-6 py-3 text-sm text-gray-600 hover:bg-white hover:text-black transition"
+                className="rounded-full border border-gray-600 px-5 py-2 text-sm text-gray-600 hover:bg-gray-600 hover:text-gray-100 transition"
             >
                 Get Started
             </a>

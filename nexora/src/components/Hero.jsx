@@ -2,6 +2,7 @@
 import gsap from "gsap";
 import { useLayoutEffect, useRef } from "react";
 import Navbar from "./Navbar";
+import HeroContent from "./HeroContent";
 
 function Hero() {
     const frameRef = useRef(null);
@@ -39,6 +40,7 @@ function Hero() {
                     className="w-full h-full object-cover"
                 />
                 <Navbar />
+                <HeroContent />
             </div>
         </section>
     );
