@@ -19,7 +19,7 @@ export default function Hero() {
                         transition={{ duration: 0.9, delay: 0.2 }}
                         className="mb-6 text-[11px] font-medium tracking-[0.4em] text-white/50 sm:mb-8"
                     >
-                        ARCHITECTURE STUDIO — EST. 2017
+                        ARCHITECTURE STUDIO
                     </motion.p>
 
                     <motion.h1
@@ -44,14 +44,6 @@ export default function Hero() {
                             meet — creating timeless environments for living and working.
                         </p>
 
-
-                        <a
-                            href="#projects"
-                            className="group relative overflow-hidden rounded-full bg-white px-7 py-3.5 text-[12px] font-medium tracking-[0.2em] text-black transition-all hover:bg-[#f0ebe3]"
-                        >
-                            VIEW PROJECTS
-                        </a>
-
                     </motion.div>
                 </div>
 
@@ -63,7 +55,7 @@ export default function Hero() {
                 >
                     <span className="hidden sm:block">NEW YORK</span>
                     <span>ARCHITECTURE & INTERIORS</span>
-                    <span className="hidden md:block">SCROLL ↓</span>
+                    <span className="hidden md:block">UNITED STATES</span>
                 </motion.div>
             </div>
         </section>
