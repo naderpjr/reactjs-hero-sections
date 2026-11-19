@@ -28,11 +28,9 @@ export default function Hero() {
                         transition={{ duration: 1.1, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
                         className="max-w-5xl text-[clamp(3.4rem,9vw,8.5rem)] font-medium leading-[0.88] tracking-[-0.04em]"
                     >
-                        SPACES
+                        Build the
                         <br />
-                        THAT
-                        <br />
-                        <span className="text-white/40">BREATHE.</span>
+                        extraordinary simply.
                     </motion.h1>
 
                     <motion.div
@@ -46,24 +44,14 @@ export default function Hero() {
                             meet — creating timeless environments for living and working.
                         </p>
 
-                        <div className="flex items-center gap-6">
-                            <a
-                                href="#projects"
-                                className="group relative overflow-hidden rounded-full bg-white px-7 py-3.5 text-[12px] font-medium tracking-[0.2em] text-black transition-all hover:bg-[#f0ebe3]"
-                            >
-                                VIEW PROJECTS
-                                <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
-                                    →
-                                </span>
-                            </a>
 
-                            <a
-                                href="#approach"
-                                className="text-[12px] font-medium tracking-[0.2em] text-white/60 transition-colors hover:text-white"
-                            >
-                                OUR APPROACH
-                            </a>
-                        </div>
+                        <a
+                            href="#projects"
+                            className="group relative overflow-hidden rounded-full bg-white px-7 py-3.5 text-[12px] font-medium tracking-[0.2em] text-black transition-all hover:bg-[#f0ebe3]"
+                        >
+                            VIEW PROJECTS
+                        </a>
+
                     </motion.div>
                 </div>
 
@@ -73,7 +61,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 1 }}
                     className="flex items-center justify-between border-t border-white/10 py-6 text-[10px] font-medium tracking-[0.25em] text-white/40"
                 >
-                    <span className="hidden sm:block">TEHRAN · DUBAI</span>
+                    <span className="hidden sm:block">NEW YORK</span>
                     <span>ARCHITECTURE & INTERIORS</span>
                     <span className="hidden md:block">SCROLL ↓</span>
                 </motion.div>
